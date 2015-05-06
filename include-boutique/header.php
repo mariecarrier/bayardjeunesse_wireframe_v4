@@ -43,7 +43,10 @@
          <div id="" class="container gauche">
             <div class="header-gauche">
             <div class="wrapper-header-gauche reseaux-sociaux" style="padding-top: 0px;">
-             <div>Suivez-nous F T</div> 
+             <div><p>Suivez-nous 
+             <a href="" target="_blank"><img src="img/logo-facebook.png"></a><a href="" target="_blank"><img src="img/logo-twitter.png"></a>
+             </p>
+             </div> 
             </div>
             <div style="clear:both"></div>
                 <div class="wrapper-header-gauche">
