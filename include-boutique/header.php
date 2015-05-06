@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Wireframe BJ 1</title>
-<link href="css/custom.css" rel="stylesheet">
-<link href="css/bootstrap.css" rel="stylesheet">
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
-
-
-
-</head>
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container header">
     
@@ -22,7 +8,7 @@
      <div class="container logo navbar-header large">
             <div class="wrapper-logo">
                 <div class="table-w" id="page-accueil-content">
-                 <a href="/">
+                 <a href="/wireframe-v1/include-boutique/index.php">
                     <img src="img/logo_bj_large.png">
                    </a> 
                 </div>
@@ -33,7 +19,7 @@
         <div class="container logo navbar-header petit">
             <div class="wrapper-logo">
                 <div class="table-w" id="page-accueil-content">
-                 <a href="/">
+                 <a href="/wireframe-v1/include-boutique/index.php">
                     <img src="img/logo_bj_petit.png">
                    </a> 
                 </div>
@@ -44,7 +30,7 @@
         <div class="container logo navbar-header mini">
             <div class="wrapper-logo">
                 <div class="table-w" id="page-accueil-content">
-                 <a href="/">
+                 <a href="/wireframe-v1/include-boutique/index.php">
                     <img src="img/logo_bj_petit.png">
                    </a> 
                 </div>
@@ -115,7 +101,7 @@
              <hr class="ligne-grise">
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-left">
-               <li class="dropdown barre"><a href="/" class="dropdown-toggle"><div class="menu-item">Accueil</div></a>
+               <li class="dropdown barre accueil"><a href="/wireframe-v1/include-boutique/index.php" class="dropdown-toggle"><div class="menu-item accueil"><img src="/wireframe-v1/include-boutique/img/maison.png"></div></a>
                <li class="dropdown barre"><a href="/wireframe-v1/include-boutique/lp-produits.php" class="dropdown-toggle"><div class="menu-item">Magazines 0-5 ans</div></a>
                     <ul class="dropdown-menu mega-menu">
                         <li class="bgdrop"><div class="menu-item2"><a href="/wireframe-v1/include-boutique/page-produit.php">Popi | 1-3 ans</a></div></li>
@@ -175,26 +161,26 @@
                         
                     </ul>
                 </li>
+                
+                
                 <li class="dropdown barre"> 
-                    <!-- MM - ORIGINAL <a href="http://127.0.0.32/magazines-11-ans-et-plus" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>--> 
-                    
-                    <!--MM - DÉBUT - NOUVEAU --> 
-                    <a href="/wireframe-v1/include-boutique/lp-produits.php"><div class="menu-item">Livres</div></a> 
-                    <!--MM - FIN - NOUVEAU -->
-                    
+                    <a href="/wireframe-v1/include-boutique/lp-produits.php"><div class="menu-item">Produits numériques</div></a> 
                     <ul class="dropdown-menu mega-menu">
-                        <li class="bgdrop"><div class="menu-item2"><a href="/wireframe-v1/include-boutique/page-produit.php">???</a></li>
-                        
+                        <li class="bgdrop"><div class="menu-item2"><a href="/wireframe-v1/include-boutique/page-produit.php">???</a></li> 
                     </ul>
                 </li>
                 
+                
                 <li class="dropdown barre"> 
-                    <!-- MM - ORIGINAL <a href="http://127.0.0.32/magazines-11-ans-et-plus" class="dropdown-toggle" data-toggle="dropdown"><b class="caret"></b></a>--> 
-                    
-                    <!--MM - DÉBUT - NOUVEAU --> 
+                    <a href="/wireframe-v1/include-boutique/lp-produits.php"><div class="menu-item">Livres</div></a> 
+                    <ul class="dropdown-menu mega-menu">
+                        <li class="bgdrop"><div class="menu-item2"><a href="/wireframe-v1/include-boutique/page-produit.php">???</a></li> 
+                    </ul>
+                </li>
+                
+                
+                <li class="dropdown barre"> 
                     <a href="/wireframe-v1/include-boutique/lp-produits.php"><div class="menu-item">Idées cadeaux</div></a> 
-                    <!--MM - FIN - NOUVEAU -->
-                    
                     <ul class="dropdown-menu mega-menu">
                         <li class="bgdrop"><div class="menu-item2"><a href="/wireframe-v1/include-boutique/page-produit.php">Accessoires</a></li>
                         <li class="bgdrop"><div class="menu-item2"><a href="/wireframe-v1/include-boutique/page-produit.php">Casse-têtes</a></li>
@@ -210,48 +196,18 @@
                         <li class="bgdrop"><div class="menu-item2"><a href="/wireframe-v1/include-boutique/page-produit.php">Vêtements</a></li>
                     </ul>
                 </li>
+                
+                   <li class="dropdown barre dernier"> 
+                    <a href="/wireframe-v1/include-boutique/lp-produits.php"><div class="menu-item">Jean-Robert</div></a> 
+                    <ul class="dropdown-menu mega-menu">
+                        <li class="bgdrop"><div class="menu-item2"><a href="/wireframe-v1/include-boutique/page-produit.php">???</a></li> 
+                    </ul>
+                </li>
+                
+                
+                
             </ul>
         </div>
-        <!--/.navbar-collapse --> 
+ 
     </div>
 </nav>
-
-<!-- <nav class="navbar navbar-inverse navbar-fixed-top menu">
-    
-    <div class="container header">
-        
-        <div class="container logo navbar-header">
-            <div class="wrapper-logo">
-                <div class="table-w" id="page-accueil-content">
-                    <p>Logo</p>
-                </div>
-            </div>
-        </div>
-        
-         <div id="navbar" class="container gauche navbar-collapse collapse">
-            <div class="header-gauche">
-            <table>
-                <td>
-                    <td>Loupe</td>
-                    <td>Renouvellement</td>
-                    <td>Compte client</td>
-                    <td>Panier</td>
-                </td>
-             </table>   
-            </div>
-        </div>
-        
-        <div class="container menu">
-            <div class="navbar-menu">
-              <?php
-               // include 'menu-principal.php';
-              ?>
-            </div>
-        </div>
-        
-       
-        
-        
-    </div>
-    
-</nav> -->

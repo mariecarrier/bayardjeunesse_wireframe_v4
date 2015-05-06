@@ -19,9 +19,62 @@ Formats :
     
 }
 
+
+/* DÉBUT - Modication bouton */
 .subscribenow.content.bouton-achat {
-    width: 290px;   
+    width: 150px;   
 }
+
+
+.terminer-commande .subscribenow.content.bouton-achat {
+    width: 250px;  
+    height: 54px !important; 
+}
+
+.wrapper-sugg-achat input.call {
+        width: 100%;
+        color:#000000;
+        height: 36px;
+          border-radius: 0px;
+          font-size: 12px;
+          padding: 0px 0px;
+    }
+    
+    
+ .terminer-commande   input.call {
+        width: 100%;
+        color:#000000;
+        height: 50px;
+        background-color: #eee;
+    }
+    
+/* BOUTON */
+.subscribenow {
+	display: block;
+ 	vertical-align: middle;
+	width: 100%;
+	height: 40px;
+	border: 2px solid #000000;
+	text-align: center;
+	background-color: rgb(205, 205, 205);
+}
+
+
+.subscribenow:hover {
+	background-color: rgb(137, 137, 137);
+}
+
+
+.subscribenow.content.bouton-achat {
+    width: 150px;   
+}
+
+
+/* FIN - Modication bouton */
+
+
+
+
 
 .wrapper-carrousel img, .wrapper-bigbox img  {
     width: 100%;
@@ -73,7 +126,7 @@ h1.listing {
 }
 
 h2, .h2 {
-  font-size: 1.4em !important;
+  font-size: 1em !important;
   text-transform: uppercase !important;
  margin-top: 10px !important;
   margin-bottom: 10px !important;
@@ -102,6 +155,10 @@ body {
   padding-bottom: 20px;
 }
 
+
+.sub.regular.age {
+    display: none;   
+}
 
 /* ----- HEADER ------ */ 
 
@@ -160,15 +217,24 @@ background-color:#0042C9;
 }
 
 
-.accueil a {
-    padding: 12px 11px 15px 8px !important;
-    border-left: 0px #020202 solid !important;
-  border-right: 0px #000000 solid !important;
+
+
+.wrap-large-but.continuer-magaziner {
+    float:right;
+    width: 250px;
+    margin-top: 10px;
+    
 }
 
-ul.nav li.accueil:hover {
-  border-bottom: 0px solid black !important;
+.wrap-large-but.continuer-magaziner input {
+    background-color: white;
+    border: none;
+    color: #000000;
+    text-decoration: underline;
+    
 }
+
+
 
 
 
@@ -186,7 +252,6 @@ ul.nav li.accueil:hover {
 	/*display: table-cell;*/
  	vertical-align: bottom;
 }
-
 
 /* ----- CONTENT ------ */ 
 
@@ -210,21 +275,6 @@ ul.nav li.accueil:hover {
 
 
 
-/* BOUTON */
-.subscribenow {
-	display: table-cell;
- 	vertical-align: middle;
-	width: 100%;
-	height: 50px;
-	border: 2px solid #000000;
-	text-align: center;
-	background-color: rgb(205, 205, 205);
-}
-
-
-.subscribenow:hover {
-	background-color: rgb(137, 137, 137);
-}
 
 
 
@@ -236,7 +286,7 @@ ul.nav li.accueil:hover {
 .wrapper-covers-content {
 	display: table-cell;
  	vertical-align: middle;
-	height: 300px;
+	height: 150px;
  	width: 329px;
 	text-align: center;
 }
@@ -257,12 +307,12 @@ h2 {
 }
 
 .sub {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 
 .sub.regular {
-  2% 0px 2% 0px;
+ margin: 2% 0px 5% 0px;
 }
 
 .header-desc .wrap-large-but {
@@ -270,7 +320,7 @@ h2 {
 }
 
 .sub.plus {
-  margin: 2% 0px 2% 0px;
+  margin: 2% 0px 5% 0px;
 }
 
 .sub.regular.age {
@@ -761,13 +811,13 @@ select.duree-produit {
     
    
    .wrapper-sugg-achat {
-       margin-top: 60px;       
+       margin-top: 30px;       
        
    }
     
     
    .wrapper-prec-suivant .wrap-large-but  {
-       float: right;
+       float: none;
         
         
     }
@@ -947,7 +997,7 @@ select.duree-produit {
 }
 
 .navbar-nav > li > a {
-  padding: 21px 11px 15px 8px;
+  padding: 21px 15px 15px 15px;
 }
 
 .nav > li > a {
@@ -1075,7 +1125,7 @@ select.duree-produit {
   
   
    .col-lg-3 {
-  width: 29%;
+  width: 20%;
   float: left;
 }
   
@@ -1161,12 +1211,7 @@ select.duree-produit {
         
     }
     
-    input.call {
-        width: 100%;
-        color:#000000;
-        height: 50px;   
-    }
-    
+  
     .ligne-grise {
         display: none;
 } 
@@ -1207,11 +1252,6 @@ ul.nav li:hover a.dropdown-toggle*/ {
 }
 
 
-
-.accueil img {
-      width: 35px;
-}
-
 ul.nav li:hover {
 	  border-bottom: 2px solid black;
 }
@@ -1222,16 +1262,9 @@ ul.nav ul li:hover {
 }
 
 
-ul.nav li.dernier a {
-  border-right: 0px #000000 solid;
-}
-
-
-
 ul.nav li a {
 	border-left: 1px #020202 solid;
 	border-right: 1px #000000 solid;
-    
 }
 
 
